@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClearComex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="icon" type="image/png"  href="assets/img/logo sin fondo.png">
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav>
+      <div class="nav-logo">
+        <img
+          src="assets/img/Logo transparente.png"
+          alt="ClearComex Consulting"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#que-hacemos">Servicios</a></li>
+        <li><a href="#diferenciadores">Enfoque</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a
+        href="https://wa.me/56929182084?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20sus%20servicios"
+        class="nav-cta"
+        target="_blank"
+        >Reservar</a
+      >
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+      <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#nosotros" onclick="closeMobile()">Nosotros</a>
+      <a href="#que-hacemos" onclick="closeMobile()">Servicios</a>
+      <a href="#diferenciadores" onclick="closeMobile()">Enfoque</a>
+      <a href="#contacto" onclick="closeMobile()">Contacto</a>
+      <a href="https://wa.me/56929182084" target="_blank">WhatsApp →</a>
+    </div>
+
+   <!-- HERO -->
+    <section class="hero" id="inicio">
+      <video class="hero-video" autoplay loop muted playsinline>
+        <source src="assets/img/video_hero.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>
+          Transformamos el comercio exterior en una
+          <em>estrategia de negocio</em>
+        </h1>
+        <p class="hero-sub">
+          Asesoría independiente en importaciones y comercio internacional.
+          Claridad en cada etapa, decisiones respaldadas en información real.
+        </p>
+        <div class="hero-actions">
+          <a href="#servicios" class="btn-primary"
+            ><i class="fa-solid fa-arrow-down"></i> Ver servicios</a
+          >
+          <a
+            href="https://wa.me/56929182084?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20sus%20servicios"
+            class="btn-outline"
+            target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i> Contactar</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros">
+      <div class="nosotros-layout">
+        <div class="nosotros-img-wrapper">
+          <img
+            src="assets/img/Perfil.jpg"
+            alt="Constanza Marambio Fernández"
+            class="nosotros-img"
+          />
+        </div>
+        <div class="nosotros-content">
+          <p class="section-label">Nosotros</p>
+          <h2 class="section-title">Experiencia que da tranquilidad</h2>
+          <p class="section-body">
+            Soy Constanza Marambio Fernández, fundadora de ClearComex Consulting
+            y profesional de Comercio Internacional con más de 15 años de
+            experiencia en las industrias de alimentos, retail y minería.
+            Durante mi trayectoria he liderado procesos de importación,
+            exportación, abastecimiento estratégico, desarrollo de proveedores
+            internacionales y expansión comercial.
+            <br /><br />
+            Mi enfoque va más allá de la logística: acompaño a empresas y
+            emprendedores en la creación de marcas, desarrollo de productos,
+            certificaciones y búsqueda de oportunidades de negocio que les
+            permitan diferenciarse y crecer en mercados cada vez más
+            competitivos.
+            <br /><br />
+            En ClearComex Consulting creemos en un acompañamiento cercano,
+            estratégico y personalizado, transformando el comercio internacional
+            en una herramienta real de crecimiento para nuestros clientes.
+          </p>
+          <div class="nosotros-stats">
+            <div class="stat-item">
+              <span class="stat-num">+15</span>
+              <span class="stat-desc">Años de experiencia</span>
+            </div>
+            <div class="stat-item">
+              <!-- Recuerda cambiar las XXX por un número real cuando te lo confirme -->
+              <span class="stat-num">+3000</span>
+              <span class="stat-desc">Operaciones gestionadas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- QUÉ HACEMOS -->
+    <section id="que-hacemos">
+      <p class="section-label">¿Qué hacemos?</p>
+      <h2 class="section-title">Asesoría estratégica e independiente</h2>
+      <p class="section-body">
+        No representamos a proveedores ni agencias logísticas. Trabajamos
+        exclusivamente por los intereses de nuestros clientes.
+      </p>
+      <div class="que-grid">
+        <div class="que-item">
+          <div class="que-icon">
+            <i class="fa-solid fa-magnifying-glass-chart"></i>
+          </div>
+          <h3>Análisis y validación</h3>
+          <p>
+            Evaluamos tu operación en detalle: cotizaciones, condiciones
+            comerciales, costos logísticos y documentación crítica.
+          </p>
+        </div>
+        <div class="que-item">
+          <div class="que-icon"><i class="fa-solid fa-route"></i></div>
+          <h3>Coordinación logística</h3>
+          <p>
+            Te acompañamos desde el origen hasta la entrega en destino,
+            evaluando cada alternativa antes de decidir.
+          </p>
+        </div>
+        <div class="que-item">
+          <div class="que-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+          <h3>Cumplimiento regulatorio</h3>
+          <p>
+            Revisión de documentación, requisitos SAG, etiquetado y permisos
+            para que la mercancía ingrese sin contratiempos.
+          </p>
+        </div>
+        <div class="que-item">
+          <div class="que-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h3>Transferencia de conocimiento</h3>
+          <p>
+            Al finalizar, entiendes el proceso completo y puedes gestionar
+            futuras operaciones con mayor autonomía.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios">
+      <p class="section-label">Nuestros servicios</p>
+      <h2 class="section-title">Tres líneas de asesoría</h2>
+      <p class="section-body">
+        Cada servicio está diseñado para una etapa distinta de tu relación con
+        el comercio exterior.
+      </p>
+      <div class="servicios-grid">
+        <div class="servicio-card">
+          <img
+            src="assets/img/verify.png"
+            alt="ClearComex Consulting"
+            class="servicio-logo"
+          />
+          <span class="servicio-slug">Segunda opinión experta</span>
+          <h3>Cuando necesitas una segunda opinión experta</h3>
+          <p>
+            Ya tienes un proveedor, una cotización o una operación en marcha,
+            pero algo no te cuadra. Analizamos tu operación en detalle para
+            darte claridad real sobre costos, riesgos y condiciones antes de que
+            tomes una decisión.
+          </p>
+          <div class="servicio-form">
+            <input type="text" id="nombre-verify" placeholder="Tu nombre" />
+            <textarea
+              id="msg-verify"
+              placeholder="¿En qué etapa estás? Cuéntanos brevemente..."
+            ></textarea>
+            <button onclick="enviarWA('verify')">
+              <i class="fa-brands fa-whatsapp"></i> Agendar reunión
+            </button>
+          </div>
+        </div>
+
+        <div class="servicio-card">
+          <img
+            src="assets/img/logistics.png"
+            alt="ClearComex Consulting"
+            class="servicio-logo"
+          />
+          <span class="servicio-slug">Aliado durante todo el proceso</span>
+          <h3>Cuando necesitas un aliado durante todo el proceso</h3>
+          <p>
+            Una importación exitosa no depende solo de encontrar un buen
+            proveedor. Requiere coordinar cada etapa de la cadena logística. Te
+            acompañamos desde la salida de la mercancía hasta su llegada a
+            destino.
+          </p>
+          <div class="servicio-form">
+            <input type="text" id="nombre-logistics" placeholder="Tu nombre" />
+            <textarea
+              id="msg-logistics"
+              placeholder="¿En qué etapa estás? Cuéntanos brevemente..."
+            ></textarea>
+            <button onclick="enviarWA('logistics')">
+              <i class="fa-brands fa-whatsapp"></i> Agendar reunión
+            </button>
+          </div>
+        </div>
+
+        <div class="servicio-card">
+          <img
+            src="assets/img/buisness.png"
+            alt="ClearComex Consulting"
+            class="servicio-logo"
+          />
+          <span class="servicio-slug">Negocio internacional desde cero</span>
+          <h3>Cuando quieres construir un negocio internacional</h3>
+          <p>
+            Para emprendedores y empresas que buscan desarrollar una nueva línea
+            de productos, crear una marca propia o construir un negocio basado
+            en el comercio internacional. Desde la idea hasta la llegada del
+            producto.
+          </p>
+          <div class="servicio-form">
+            <input type="text" id="nombre-business" placeholder="Tu nombre" />
+            <textarea
+              id="msg-business"
+              placeholder="¿En qué etapa estás? Cuéntanos brevemente..."
+            ></textarea>
+            <button onclick="enviarWA('business')">
+              <i class="fa-brands fa-whatsapp"></i> Agendar reunión
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIFERENCIADORES -->
+    <section id="diferenciadores">
+      <p class="section-label">Nuestro enfoque</p>
+      <h2 class="section-title">Por qué ClearComex</h2>
+      <p class="section-body">
+        Actuamos como asesores independientes. Sin proveedores impuestos, sin
+        costos ocultos. La decisión final siempre es tuya.
+      </p>
+      <div class="dif-grid">
+        <div class="dif-item">
+          <div class="dif-num">01</div>
+          <h3>Sin proveedores impuestos</h3>
+          <p>
+            No trabajamos con forwarders ni agencias de aduana fijos.
+            Solicitamos múltiples cotizaciones y las analizamos contigo.
+          </p>
+        </div>
+        <div class="dif-item">
+          <div class="dif-num">02</div>
+          <h3>Transparencia total de costos</h3>
+          <p>
+            Visibilidad completa de cada ítem: flete, seguro, gastos portuarios,
+            honorarios e impuestos. Sin sorpresas.
+          </p>
+        </div>
+        <div class="dif-item">
+          <div class="dif-num">03</div>
+          <h3>Control de riesgos anticipado</h3>
+          <p>
+            Los problemas suelen ocurrir antes del embarque. Identificamos y
+            corregimos errores documentales a tiempo.
+          </p>
+        </div>
+        <div class="dif-item">
+          <div class="dif-num">04</div>
+          <h3>Decisiones informadas</h3>
+          <p>
+            En cada etapa revisamos las alternativas antes de avanzar. Tú
+            decides con información real, no con suposiciones.
+          </p>
+        </div>
+        <div class="dif-item">
+          <div class="dif-num">05</div>
+          <h3>Cumplimiento regulatorio</h3>
+          <p>
+            Conocimiento actualizado de requisitos SAG, SEREMI, agencias de
+            aduana y normativas chilenas e internacionales.
+          </p>
+        </div>
+        <div class="dif-item">
+          <div class="dif-num">06</div>
+          <h3>Aprendizaje real</h3>
+          <p>
+            No solo realizas una importación: aprendes a gestionarlas. Al
+            finalizar tienes autonomía para coordinar futuras operaciones.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+      <div class="contacto-layout">
+        <div class="contacto-left">
+          <p class="section-label">Contacto</p>
+          <h2 class="section-title">Agenda una reunión</h2>
+          <p class="section-body">
+            Cuéntanos sobre tu proyecto y te entregamos claridad sobre los
+            próximos pasos, sin compromisos.
+          </p>
+          <div class="contacto-items">
+            <div class="contacto-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+56929182084">+56 9 2918 2084</a>
+            </div>
+            <div class="contacto-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:constanza.marambio@clear-comex.com"
+                >constanza.marambio@clear-comex.com</a
+              >
+            </div>
+            <div class="contacto-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Santiago de Chile</span>
+            </div>
+          </div>
+        </div>
+        <div class="contacto-right">
+          <div class="contacto-box">
+            <p>
+              Escríbenos directamente por WhatsApp y cuéntanos en qué etapa
+              estás. Te respondemos a la brevedad para coordinar una reunión sin
+              costo.
+            </p>
+            <a
+              href="https://wa.me/56929182084?text=Hola%20Constanza%2C%20me%20interesa%20agendar%20una%20reuni%C3%B3n%20para%20conocer%20m%C3%A1s%20sobre%20sus%20servicios"
+              class="btn-wa"
+              target="_blank"
+            >
+              <i class="fa-brands fa-whatsapp"></i> Escribir por WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <img src="assets/img/Logo transparente.png" alt="ClearComex Consulting" />
+      <p>© 2026 ClearComex Consulting · Santiago de Chile</p>
+    </footer>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
